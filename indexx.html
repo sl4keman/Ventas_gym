@@ -5,74 +5,97 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Venta de máquinas de gimnasio de alta calidad para entrenamiento en casa y en gimnasios comerciales.">
     <title>FitMachines: Equipamiento de Gimnasio para el Futuro</title>
-    <link rel="stylesheet" href="C:\Users\andre\OneDrive\Documentos\univercidad\7mo semestre\electiva1\venta_gym\css\style.css">
-    <script defer src="C:\Users\andre\OneDrive\Documentos\univercidad\7mo semestre\electiva1\venta_gym\css\gestion.js"></script>
+    <link rel="stylesheet" href="static/css/style.css"> <!-- Cambiar la ruta a relativa -->
+    <script defer src="static/js/gestion.js"></script> <!-- Cambiar la ruta a relativa -->
 </head>
 <body>
     <header>
         <h1>FitMachines</h1>
-        <nav>
-            <ul>
-                <li><a href="sobre-nosotros.html">Sobre Nosotros</a></li>
-                <li><a href="carrito.html">Ver Carrito (<span id="cart-count">0</span>)</a></li>
-            </ul>
-        </nav>
     </header>
 
     <section class="hero">
         <h2>¡Transforma tu Entrenamiento!</h2>
         <p>Descubre las mejores máquinas de gimnasio para llevar tu rendimiento al siguiente nivel.</p>
-        <button onclick="location.href='#productos'">Ver Productos</button>
     </section>
 
     <section id="productos">
-        <h2>Nuestros Productos</h2>
+        <h3>Nuestros Productos</h3>
         <div class="productos-grid">
             <div class="producto" data-nombre="Press Plano" data-precio="2500000">
-                <img src="C:\Users\andre\OneDrive\Documentos\univercidad\7mo semestre\electiva1\venta_gym\imagenes\pres_plano.jpeg" alt="Press Plano">
+                <img src="static/imagenes/pres_plano.jpeg" alt="Press Plano"> <!-- Cambiar la ruta a relativa -->
                 <h3>Press Plano</h3>
-                <p>Máquina para entrenar el pecho. Precio: $2.500.000 COP</p>
+                <p>Obtén un mejor volumen en el pecho,<br> no incluye discos. <br><br>
+                    <span class="antes">Antes: $3.000.000 COP</span><br>
+                    <span class="ahora">Ahora: $2.500.000 COP</span><br>
+                    <strong>Stock limitado</strong>
+                </p>
                 <button class="add-to-cart">Agregar al Carrito</button>
             </div>
 
             <div class="producto" data-nombre="Hack Sentadilla" data-precio="3000000">
-                <img src="C:\Users\andre\OneDrive\Documentos\univercidad\7mo semestre\electiva1\venta_gym\imagenes\hack_sentadilla.jpeg" alt="Hack Sentadilla">
+                <img src="static/imagenes/hack_sentadilla.jpeg" alt="Hack Sentadilla"> <!-- Cambiar la ruta a relativa -->
                 <h3>Hack Sentadilla</h3>
-                <p>Entrena tus piernas y glúteos. Precio: $3.000.000 COP</p>
-                <button class="add-to-cart">Agregar al Carrito</button>
+                <p>Obtén un mejor volumen en los cuádriceps gracias al nivel de rango que te ofrece esta máquina, no incluye discos. <br><br>
+                    <span class="antes">Antes: $3.500.000 COP</span><br>
+                    <span class="ahora">Ahora: $3.000.000 COP</span><br>
+                    <strong>Stock limitado</strong>
+                </p>
+                <button class="add-to-cart">9 en Stock</button>
             </div>
 
             <div class="producto" data-nombre="Prensa" data-precio="4500000">
-                <img src="C:\Users\andre\OneDrive\Documentos\univercidad\7mo semestre\electiva1\venta_gym\imagenes\prensa.jpeg" alt="Prensa">
+                <img src="static/imagenes/prensa.jpeg" alt="Prensa"> <!-- Cambiar la ruta a relativa -->
                 <h3>Prensa</h3>
-                <p>Fortalece tus piernas con esta prensa. Precio: $4.500.000 COP</p>
-                <button class="add-to-cart">Agregar al Carrito</button>
+                <p>Ideal para el trabajo en los cuádriceps, glúteos y aductores, no incluye discos. <br><br>
+                    <span class="antes">Antes: $5.000.000 COP</span><br>
+                    <span class="ahora">Ahora: $4.500.000 COP</span><br>
+                    <strong>Stock limitado</strong>
+                </p>
+                <button class="add-to-cart">5 en Stock</button>
             </div>
 
             <div class="producto" data-nombre="Multi Power" data-precio="5000000">
-                <img src="C:\Users\andre\OneDrive\Documentos\univercidad\7mo semestre\electiva1\venta_gym\imagenes\multi_power.jpeg" alt="Multi Power">
+                <img src="static/imagenes/multi_power.jpeg" alt="Multi Power"> <!-- Cambiar la ruta a relativa -->
                 <h3>Multi Power</h3>
-                <p>Estación multiuso para diversos ejercicios. Precio: $5.000.000 COP</p>
+                <p>Ideal para múltiples ejercicios ayudándote a mantener una postura y mayor dificultad, no incluye discos. <br><br>
+                    <span class="antes">Antes: $5.500.000 COP</span><br>
+                    <span class="ahora">Ahora: $5.000.000 COP</span><br>
+                    <strong>17 en Stock</strong>
+                </p>
                 <button class="add-to-cart">Agregar al Carrito</button>
             </div>
 
             <div class="producto" data-nombre="Poleas" data-precio="2800000">
-                <img src="C:\Users\andre\OneDrive\Documentos\univercidad\7mo semestre\electiva1\venta_gym\imagenes\poleas.jpeg" alt="Poleas">
+                <img src="static/imagenes/poleas.jpeg" alt="Poleas"> <!-- Cambiar la ruta a relativa -->
                 <h3>Poleas</h3>
-                <p>Ideal para ejercicios de espalda y brazos. Precio: $2.800.000 COP</p>
+                <p>Ideal para ejercicios de espalda y brazos, graduable en diferentes alturas. <br><br>
+                    <span class="antes">Antes: $13.000.000 COP</span><br>
+                    <span class="ahora">Ahora: $10.500.000 COP</span><br>
+                    <strong>12 en Stock</strong>
+                </p>
                 <button class="add-to-cart">Agregar al Carrito</button>
             </div>
 
             <div class="producto" data-nombre="Ciclas" data-precio="1800000">
-                <img src="C:\Users\andre\OneDrive\Documentos\univercidad\7mo semestre\electiva1\venta_gym\imagenes\ciclas.jpeg" alt="Ciclas">
+                <img src="static/imagenes/ciclas.jpeg" alt="Ciclas"> <!-- Cambiar la ruta a relativa -->
                 <h3>Ciclas</h3>
-                <p>Ciclas para cardio y resistencia. Precio: $1.800.000 COP</p>
+                <p>Obtén una mejor condición física con esta cicla la cual se puede graduar en diferentes niveles de dificultad. <br><br>
+                    <span class="antes">Antes: $2.000.000 COP</span><br>
+                    <span class="ahora">Ahora: $1.800.000 COP</span><br>
+                    <strong>10 en Stock</strong>
+                </p>
                 <button class="add-to-cart">Agregar al Carrito</button>
             </div>
         </div>
     </section>
 
     <footer>
+        <nav>
+            <ul>
+                <li><a href="sobre-nosotros.html">Sobre Nosotros</a></li>
+                <li><a href="carrito.html">Ver Carrito (<span id="cart-count">0</span>)</a></li>
+            </ul>
+        </nav>
         <p>&copy; 2024 FitMachines. Todos los derechos reservados.</p>
     </footer>
 </body>
